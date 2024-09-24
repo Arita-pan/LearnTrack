@@ -1,13 +1,254 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>LearnTrack</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTrack - Your Personal Learning Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e0fbfc;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #005f73;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .hero a {
+            background-color: #005f73;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        .hero a:hover {
+            background-color: #028090;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+        .feature {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .feature h3 {
+            color: #005f73;
+            font-size: 1.5em;
+        }
+        .feature p {
+            color: #333;
+            font-size: 1em;
+        }
+        .about {
+            padding: 50px 20px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .about h2 {
+            color: #005f73;
+            font-size: 2em;
+        }
+        .about p {
+            font-size: 1.2em;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .how-it-works {
+            background-color: #e0fbfc;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .how-it-works h2 {
+            color: #005f73;
+            font-size: 2em;
+        }
+        .how-it-works ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .how-it-works ul li {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .testimonials {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .testimonials h2 {
+            color: #005f73;
+            font-size: 2em;
+        }
+        .testimonial {
+            background-color: #e0fbfc;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+        .cta {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .cta h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .cta a {
+            background-color: #028090;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        .cta a:hover {
+            background-color: #05668d;
+        }
+        .contact {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .contact h2 {
+            color: #005f73;
+            font-size: 2em;
+        }
+        .contact p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
 </head>
-
 <body>
 
-<h1>LearnTrack</h1>
-<h3>Your Personalized Learning Assistant</h3>
+    <header>
+        <h1>LearnTrack</h1>
+        <p>Your Personalized Learning Assistant</p>
+    </header>
+
+    <section class="hero">
+        <h2>Stay Organized, Stay Motivated</h2>
+        <p>LearnTrack helps students manage their tasks, track progress, and access personalized learning materials in one place.</p>
+        <a href="#features">Explore Features</a>
+    </section>
+
+    <section class="about">
+        <h2>About LearnTrack</h2>
+        <p>LearnTrack is a comprehensive learning management platform that empowers students to stay organized, motivated, and on track with their academic goals. With personalized dashboards, AI-driven task management, and a suite of unique tools, we ensure that every student is fully supported throughout their academic journey.</p>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature">
+            <h3>Effortless Login</h3>
+            <p>Start with secure, personalized accounts that guarantee safe access to your academic data.</p>
+        </div>
+        <div class="feature">
+            <h3>Personalized Dashboard</h3>
+            <p>Manage tasks, view your class calendar, and stay informed with campus news—all in one place.</p>
+        </div>
+        <div class="feature">
+            <h3>Task Management</h3>
+            <p>AI-driven platform to help you prioritize tasks and manage your time efficiently.</p>
+        </div>
+        <div class="feature">
+            <h3>Progress Tracking</h3>
+            <p>Track your academic progress and visualize achievements with real-time feedback.</p>
+        </div>
+        <div class="feature">
+            <h3>Translation Tool</h3>
+            <p>Real-time translation tool for multi-lingual students, ensuring no language barriers in learning.</p>
+        </div>
+        <div class="feature">
+            <h3>Gamification</h3>
+            <p>Turn learning into a fun and interactive experience with gamified elements to keep you motivated.</p>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <ul>
+            <li><strong>AI-Driven Task Management:</strong> Prioritize tasks and manage your time more effectively.</li>
+            <li><strong>Automated Notifications:</strong> Receive reminders for upcoming activities and deadlines.</li>
+            <li><strong>Personalized Learning Materials:</strong> Get customized resources tailored to your learning style.</li>
+            <li><strong>Progress Tracking:</strong> Monitor your academic journey with real-time feedback.</li>
+            <li><strong>Academic Counseling:</strong> Access guidance to help you make informed decisions about your academic future.</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Students Say</h2>
+        <div class="testimonial">
+            "LearnTrack has completely transformed the way I organize my academic life. The personalized dashboard keeps me on track and motivated every day." – Sarah, University Student
+        </div>
+        <div class="testimonial">
+            "With LearnTrack's AI task manager, I never miss a deadline. It’s helped me stay focused and on top of my assignments." – John, College Student
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Take Control of Your Learning?</h2>
+        <a href="#signup">Get Started Today</a>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us at <a href="mailto:support@learntrack.com">support@learntrack.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LearnTrack. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
